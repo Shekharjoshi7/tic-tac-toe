@@ -36,7 +36,7 @@ const checkWin= ()=>{
     })
     
 }
-// music.play();
+music.play();
 //game logic
 let Boxes= document.getElementsByClassName("box")
 Array.from(Boxes).forEach(element=>{

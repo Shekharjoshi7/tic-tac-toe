@@ -1,4 +1,5 @@
-let music = new Audio('/music.mp3')
+// let music = new Audio('/music.mp3')
+// music.play();
 let ting = new Audio('/ting.mp3')
 let game = new Audio('/gameover.mp3')
 
@@ -36,7 +37,7 @@ const checkWin= ()=>{
     })
     
 }
-music.play();
+
 //game logic
 let Boxes= document.getElementsByClassName("box")
 Array.from(Boxes).forEach(element=>{
